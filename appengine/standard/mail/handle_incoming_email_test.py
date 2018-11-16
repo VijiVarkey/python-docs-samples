@@ -16,7 +16,7 @@ from google.appengine.api import mail
 
 import handle_incoming_email
 
-
+# check comments
 def test_handle_bounced_email(testbed):
     handler = handle_incoming_email.LogSenderHandler()
     handler.request = 'request'
